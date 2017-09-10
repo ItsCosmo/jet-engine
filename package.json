@@ -1,13 +1,12 @@
 {
   "name": "jet-engine",
   "version": "0.1.0",
-  "description": "Small footprint template engin",
+  "description": "Small footprint template engine",
   "main": "index.js",
   "dependencies": {
     "babel-cli": "^6.26.0"
   },
   "devDependencies": {
-    "@types/jest": "^20.0.8",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-jest": "^21.0.2",
@@ -18,7 +17,9 @@
   },
   "jest": {
     "collectCoverage": true,
-    "collectCoverageFrom": ["src/**/*.js"],
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
     "coverageDirectory": "./test-results/coverage",
     "coverageThreshold": {
       "global": {
